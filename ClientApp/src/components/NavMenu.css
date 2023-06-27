@@ -1,0 +1,40 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.navbar {
+    background: rgb(238,174,202) !important;
+    background: linear-gradient(6deg, rgba(238,174,202,1) 0%, rgba(255,241,248,1) 0%, rgba(255,255,255,1) 50%, rgba(230,254,255,1) 100%) !important;
+}
+
+.navlink {
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.navlink:hover {
+    border-bottom: 3px solid #d7d4d4 !important;
+}
+
+.navsvg {
+    margin-right: 5px;
+}
